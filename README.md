@@ -23,11 +23,11 @@ To run the project using Docker Compose, follow these steps:
    docker-compose up --build
   
 ## Usage
-1. To see, filter and get data use swagger:
+1. To view, filter, and retrieve data, use Swagger:
    ```bash
    http://127.0.0.1:8000/api/doc/swagger/
 
-2. To upload data from csv file use command:
+2. To upload data from a CSV file, use the following command::
 ```bash
    python manage.py import_clients_from_csv file_name.txt
 
