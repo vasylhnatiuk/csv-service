@@ -18,15 +18,16 @@ To run the project using Docker Compose, follow these steps:
 2. Install requirements.txt
    ```bash
    pip install -r requirements.txt
-3. Build and up docker (Docker and Docker-Compose should be installed!)
+3. Build and up set app by docker-compose (Docker and Docker-Compose should be installed!)
    ```bash
    docker-compose up --build
   
-
-
 ## Usage
-To see, filter and get data use swagger:
+1. To see, filter and get data use swagger:
    ```bash
    http://127.0.0.1:8000/api/doc/swagger/
 
+2. To upload data from csv file use command:
+```bash
+   python manage.py import_clients_from_csv file_name.txt
 
